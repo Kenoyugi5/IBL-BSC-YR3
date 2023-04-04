@@ -27,7 +27,7 @@ print(f"{final_number}")
 print("{} + {} = {}".format(number_one, number_two, final_number))
 
 
-a = float(input("Input first number"))
+a = float(input("Input first number")) # number 1
 b = float(input("Input second number"))
 c = a * b #C is a container to store the value of a*b
 print(c)
