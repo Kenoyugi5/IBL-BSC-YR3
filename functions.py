@@ -29,5 +29,5 @@ print("{} + {} = {}".format(number_one, number_two, final_number))
 
 a = float(input("Input first number"))
 b = float(input("Input second number"))
-c = a * b
+c = a * b #C is a container to store the value of a*b
 print(c)
