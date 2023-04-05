@@ -5,4 +5,13 @@ y = int(input("Enter the value of y: "))
 def addition():
     print(x + y)
 
-addition(x, y)
+addition()
+
+
+#working with strings
+name = input("What is your name? ").strip()
+
+def hello(z="World"):
+    print("hello,", z)
+
+hello(name)
