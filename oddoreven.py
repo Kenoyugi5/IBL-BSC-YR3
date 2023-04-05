@@ -1,5 +1,9 @@
 def main():
     x = int(input("What is the value of x? "))
+    # The code is checking if the value of `x` is even or odd. It does this by calling the `mod`
+    # function with `x` as an argument. If the `mod` function returns `True`, indicating that `x` is
+    # even, then the code prints "Even". Otherwise, if the `mod` function returns `False`, indicating
+    # that `x` is odd, then the code prints "Odd".
     if mod(x):
         print("Even")
     else:
