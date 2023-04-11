@@ -1,21 +1,22 @@
 def main():
     expression = input("Enter expression: ")
-    print(calc(expression))
+    x, y, z = expression.split()
+    x = int(x)
+    z = int(z)
 
-def calc(result):
-    result = result.split()
-    x = float(result[0])
-    y = result[1]
-    z = float(result[2])
-    if result[1] == "+":
-        return float(x + z)
-    elif result[1] == "-":
-        return float(x - z)
-    elif result[1] == "*":
-        return float(x * z)
-    elif result[1] == "/":
-        return float(x / z)
+    if y == "+":
+        result = x + z
+    elif y == "-":
+        result = x - z
+    elif y == "*":
+        result = x * z
+    elif y == "/":
+        result = x / z
     else:
-        print("Sorry, expression not recognized")
+        print("Invalid expression")
+    
+    print(f"{result:.1f}")
 
-main()
+if __name__ == "__main__":
+
+    main()
