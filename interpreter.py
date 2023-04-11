@@ -1,4 +1,8 @@
 def main():
+    """
+    This Python function takes a mathematical expression as input and evaluates it, returning the result
+    rounded to one decimal place.
+    """
     expression = input("Enter expression: ")
     x, y, z = expression.split()
     x = int(x)
